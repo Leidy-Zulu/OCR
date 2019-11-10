@@ -16,7 +16,7 @@
          <input type=submit value=Upload>
     </form>
 
-    <h1>Resultado de imagen procesada:</h1>
+    <h1>Imagen:</h1>
     {% if img_src %}
       <img src="{{ img_src }}">
     {% endif %}
@@ -25,7 +25,7 @@
       <p> El texto extraido es: <b> {{ extracted_text }} </b></p>
     
     {% else %}
-      The extracted text will be displayed here
+      Resultado de la imagen
     {% endif %}
   </body>
 </html>
